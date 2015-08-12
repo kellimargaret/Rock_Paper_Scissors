@@ -35,5 +35,17 @@
 
             return $result;
         }
+        // function save()
+        // {
+        //     array_push($_SESSION['results_array'], $this);
+        // }
+        // static function getAll()
+        // {
+        //     return $_SESSION['results_array'];
+        // }
+        // static function deleteAll()
+        // {
+        //     $_SESSION['results_array'] = array();
+        // }
     }
 ?>

@@ -8,20 +8,21 @@
         <div class='container'>
             <h1>Play Rock Paper Scissors!</h1>
             <h3>Player Two, Select Your Action:</h3>
-            <form action='/results'>
-                <label class="radio">
-                <input type="radio" name="optionsRadios" id="Rock" value="Rock">
+            <form action='/gameover'>
+                <label for="player2" clasplayer2s="radio">
+                <input type="radio" name="player2" id="Rock" value="rock">
                   Rock
                 </label>
-                <label class="radio">
-                  <input type="radio" name="optionsRadios" id="Paper" value="Paper">
+                <label for="player2" class="radio">
+                  <input type="radio" name="player2" id="Paper" value="paper">
                   Paper
                 </label>
-                <label class="radio">
-                  <input type="radio" name="optionsRadios" id="Scissors" value="Scissors">
+                <label for="player2" class="radio">
+                  <input type="radio" name="player2" id="Scissors" value="scissors">
                   Scissors
                 </label>
-                <button type='submit' class='btn-success'>Pass to Player Two</button>
+                <button type='submit' class='btn-success'>Play!</button>
             </form>
+        </div>
     </body>
 </html>
