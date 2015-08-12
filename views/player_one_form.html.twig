@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootsrap.min.css'>
+        <title>Play Rock Paper Scissors</title>
+    </head>
+    <body>
+        <div class='container'>
+            <h1>Play Rock Paper Scissors!</h1>
+            <h3>Player One, Select Your Action:</h3>
+            <form action='/player_two_form'>
+                <label class="radio">
+                <input type="radio" name="optionsRadios" id="Rock" value="Rock">
+                  Rock
+                </label>
+                <label class="radio">
+                  <input type="radio" name="optionsRadios" id="Paper" value="Paper">
+                  Paper
+                </label>
+                <label class="radio">
+                  <input type="radio" name="optionsRadios" id="Scissors" value="Scissors">
+                  Scissors
+                </label>
+                <button type='submit' class='btn-success'>Pass to Player Two</button>
+            </form>
+    </body>
+</html>
