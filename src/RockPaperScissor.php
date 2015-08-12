@@ -26,6 +26,8 @@
                 else {
                     if ($player2 === "rock"){
                         $result = "Player Two Wins";
+                    } else {
+                        $result = "Player One Wins";
                     }
                 }
 
