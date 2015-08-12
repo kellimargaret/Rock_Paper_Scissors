@@ -71,10 +71,10 @@
              $second_input = "rock";
 
              //Act
-             $$result = $test_RockPaperScissor->play_rock($first_input, $second_input);
+             $result = $test_RockPaperScissor->play_rock($first_input, $second_input);
 
              //Assert
-             $this->assertEquals("Player One Wins");
+             $this->assertEquals("Player One Wins", $result);
          }
      }
 
