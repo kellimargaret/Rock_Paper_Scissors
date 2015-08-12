@@ -1,0 +1,35 @@
+1)If player one and two enter rock a tie will result.
+input: rock, rock
+output: tie
+
+2)If player one enters rock and player two enters paper, player two wins.
+input: rock, paper
+output: player two wins
+
+3)If player one enters rock and player two enters scissors, player one wins.
+input: rock, scissors
+output: player one wins
+
+4)If player one enters paper and player two enters scissors, player two wins.
+input: paper, scissors
+output: player one wins
+
+5)If player one enters paper and player two enters rock, player one wins.
+input: paper, rock
+output:player two wins
+
+6)If player one enters scissors and player two enters  rock , player two wins.
+input: scissors, rock
+output: player two wins
+
+7)If player one enters scissors and player two enters paper, player one wins.
+input: scissors, paper
+output: player one wins.
+
+8)If both players enter scissors.
+input:scissors, scissors.
+output: tie
+
+9)If both players enter paper.
+input:paper, paper.
+output: tie
