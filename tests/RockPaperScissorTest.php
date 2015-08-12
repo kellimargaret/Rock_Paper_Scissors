@@ -20,6 +20,7 @@
          }
 
          function test_rock_paper()
+         {
             //Arrange
             $test_RockPaperScissor = new RockPaperScissor;
             $first_input = "rock";
@@ -30,6 +31,8 @@
 
             //Assert
             $this->assertEquals("Player Two Wins", $result);
+         }
      }
+
 
  ?>
