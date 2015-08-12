@@ -19,6 +19,21 @@
              $this->assertEquals("tie", $result);
          }
 
+         function test_paper_paper()
+         {
+             //Arrange
+             $test_RockPaperScissor = new RockPaperScissor;
+             $first_input = "paper";
+             $second_input = "paper";
+
+             //Act
+             $result = $test_RockPaperScissor->play_rock($first_input, $second_input);
+
+             //Assert
+             $this->assertEquals("tie", $result);
+         }
+
+
          function test_rock_paper()
          {
             //Arrange
@@ -104,6 +119,8 @@
             //Assert
             $this->assertEquals("Player One Wins", $result);
         }
+
+
      }
 
 
