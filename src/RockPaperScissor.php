@@ -5,8 +5,8 @@
         {
             if ($player1 === $player2){
                 $result = "tie";
-            // Player 1 == Rock Action
             } else {
+                // Player 1 == Rock Action
                 if ($player1 === "rock") {
                     if ($player2 === "paper"){
                         $result = "Player Two Wins";
@@ -14,6 +14,13 @@
                         $result = "Player One Wins";
                     }
                 }
+                // Player 1 === Paper Action
+                if ($player1 === "paper") {
+                    if ($player2 === "scissors") {
+                        $result = "Player Two Wins";
+                    }
+                }
+
             }
 
             return $result;
