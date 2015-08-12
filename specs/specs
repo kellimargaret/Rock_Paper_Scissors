@@ -12,7 +12,7 @@ output: player one wins
 
 4)If player one enters paper and player two enters scissors, player two wins.
 input: paper, scissors
-output: player one wins
+output: player two wins
 
 5)If player one enters paper and player two enters rock, player one wins.
 input: paper, rock
