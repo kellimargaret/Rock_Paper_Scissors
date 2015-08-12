@@ -32,6 +32,20 @@
             //Assert
             $this->assertEquals("Player Two Wins", $result);
          }
+         //test spec three
+         function test_rock_scissors()
+         {
+             //Arrange
+             $test_RockPaperScissor = new RockPaperScissor;
+             $first_input = "rock";
+             $second_input = "scissors";
+
+             //Act
+             $result = $test_RockPaperScissor->play_rock($first_input, $second_input);
+
+             //Assert
+             $this->assertEquals("Player One Wins", $result);
+         }
      }
 
 
