@@ -81,7 +81,7 @@
          {
              //Arrange
              $test_RockPaperScissor = new RockPaperScissor;
-             $first_input = "scissor";
+             $first_input = "scissors";
              $second_input = "rock";
 
              //Act

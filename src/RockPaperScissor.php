@@ -15,11 +15,17 @@
                     }
                 }
                 // Player 1 === Paper Action
-                if ($player1 === "paper") {
+                elseif ($player1 === "paper") {
                     if ($player2 === "scissors") {
                         $result = "Player Two Wins";
                     } else {
                         $result = "Player One Wins";
+                    }
+                }
+                // Plyaer 1 === Scissor Action
+                else {
+                    if ($player2 === "rock"){
+                        $result = "Player Two Wins";
                     }
                 }
 
